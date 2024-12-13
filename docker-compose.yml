@@ -1,0 +1,6 @@
+﻿services:
+  ecommerce.host:
+    image: ecommerce.host
+    build:
+      context: .
+      dockerfile: Ecommerce.Host/Dockerfile
